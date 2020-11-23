@@ -23,7 +23,7 @@ class Rope {
         var Anchor2X = pointB.x + this.offsetX;
         var Anchor2Y = pointB.y + this.offsetY;
 
-        strokeWeight(2);
+        strokeWeight(3);
         stroke("yellow");
 
         line(Anchor1X, Anchor1Y, Anchor2X, Anchor2Y);
