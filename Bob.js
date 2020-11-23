@@ -16,7 +16,7 @@ class Bob {
         push();
         translate(pos.x, pos.y);
         rectMode(CENTER);
-        fill("red");
+        fill("green");
         ellipse(0, 0, this.diameter);
         pop();
     }
